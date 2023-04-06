@@ -11,7 +11,7 @@ export default function Showbook({ auth, book}) {
     const { data, setData, put, processing, errors, recentlySuccessful} = useForm({
         Isbn: book[0].Isbn,
         Titolo: book[0].Titolo,
-        Autore: book[0].Titolo,
+        Autore: book[0].Autore,
         DataAggiunta: book[0].DataAggiunta,
         Trama: book[0].Trama,
         DataCancellazione: book[0].DataCancellazione,
