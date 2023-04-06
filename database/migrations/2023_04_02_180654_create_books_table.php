@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('DataAggiunta', 200);
             $table->string('DataCancellazione', 200)->nullable();
             $table->text('Trama', 500);
-            $table->integer('numeroLetture');
+            $table->integer('NumeroLetture');
             $table->string('Email');
             $table->timestamps();
             /*Utilizzo mysql*/
