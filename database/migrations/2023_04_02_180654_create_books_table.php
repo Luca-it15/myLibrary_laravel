@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('Titolo', 200);
             $table->string('Autore', 200);
             $table->string('DataAggiunta', 200);
-            $table->string('DataEliminazione', 200)->nullable();
+            $table->string('DataCancellazione', 200)->nullable();
             $table->text('Trama', 500);
             $table->integer('numeroLetture');
             $table->string('Email');
