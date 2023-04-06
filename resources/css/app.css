@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#loginArea {
+    margin: 0 auto;
+    width: 35rem;
+    height: 36rem;
+    margin-top:5%;
+    box-sizing: border-box;
+    box-shadow: 40px;
+    position: relative;
+    border-radius: 10px;
+    border: 2pt inset black;
+    background-color: #d7d6d8;
+}
+
+#intro {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    align-content: center;
+    float: left;
+    margin: 0 auto;
+
+
+}
+
+#intro h1 {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    position: relative;
+    font-size: 30pt;
+    margin-bottom: 5%;
+    float: left;
+    margin-top: 3%;
+
+}
+
+#intro img {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    margin: 0 auto;
+    margin-left: 29%;
+
+}
+
+.pulsante{
+    float: left;
+    margin-top: 5%;
+    border-radius: 7px;
+    }
+
+.colorePulsante {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: outset 1px #0076a3;
+    background: #0095cd;
+    border-radius: 7px;
+}
+
+.colorePulsante:hover {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: outset 1px #0076a3;
+    background: #23282b;
+    border-radius: 7px;
+}
+
+.login{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+#pulsanti {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+}
+
+.colore {
+   color: black;
+   font-weight: bold;
+}
+
+.tablebook {
+   width: 100%;
+   height: 100%;
+   border: 2pt solid  #0076a3;
+   border-radius: 5%;
+   margin: 0 auto;
+}
+
+.divbook {
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+
+.tablebook tr{
+    border: 2pt solid  #0076a3;
+    text-align: left;
+ }
+
+ .tablebook td, th{
+    padding: 2%;
+ }
+
+.titletable{
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 20pt;
+    margin: 2%;
+}
+
+.subtitle {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 2%;
+}
+
+.form {
+    padding: 3%;
+}
+
+.form input {
+   border: 1pt solid #0076a3;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 12pt;
+    color: black;
+    margin-bottom: 1%;
+}
